@@ -1,0 +1,78 @@
+:root {
+    /* =========================
+     COLOR PALETTE - HSL
+     ========================= */
+
+    /* Primary - Vibrant Orange */
+    --primary-hue: 14;
+    --primary-sat: 85%;
+    --primary-light: 55%;
+    --primary: hsl(var(--primary-hue), var(--primary-sat), var(--primary-light));
+    --primary-hover: hsl(var(--primary-hue), var(--primary-sat), 45%);
+    --primary-active: hsl(var(--primary-hue), var(--primary-sat), 40%);
+    --primary-foreground: #ffffff;
+
+    /* Secondary - Deep Charcoal/Black */
+    --secondary: #1e1a17;
+    --secondary-foreground: #ffffff;
+
+    /* Accent - Warm Gold/Yellow for badges/highlights */
+    --accent-hue: 45;
+    --accent: hsl(var(--accent-hue), 90%, 50%);
+    --accent-bg: hsl(var(--accent-hue), 90%, 95%);
+
+    /* Backgrounds */
+    --bg-app: #f7f3f0;
+    --bg-surface: #ffffff;
+    --bg-surface-hover: #fafafa;
+    --bg-subtle: #f5f2ef;
+
+    /* Text Colors */
+    --text-main: #1f2933;
+    --text-muted: #6b7280;
+    --text-inverse: #ffffff;
+
+    /* Status Colors */
+    --success: #10b981;
+    --warning: #f59e0b;
+    --error: #ef4444;
+    --info: #3b82f6;
+
+    /* =========================
+     SPACING & LAYOUT
+     ========================= */
+    --radius-sm: 0.375rem;
+    --radius-md: 0.75rem;
+    --radius-lg: 1rem;
+    --radius-xl: 1.5rem;
+    --radius-full: 9999px;
+
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+
+    /* =========================
+     SHADOWS (Soft & Premium)
+     ========================= */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --shadow-floating: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    --shadow-glow-primary: 0 0 20px -5px hsl(var(--primary-hue), var(--primary-sat), 60%);
+
+    /* =========================
+     TYPOGRAPHY
+     ========================= */
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+    /* =========================
+     ANIMATIONS
+     ========================= */
+    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
